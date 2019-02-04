@@ -1,0 +1,42 @@
+storage:
+ value: default
+ wizard:
+   name: "Storage Configuration"
+   kind: cluster_storage
+
+python_version:
+  value: "3"
+  wizard:
+    name: "Python version"
+    kind: select
+    options:
+    - "2"
+    - "3"
+
+jupyter:
+  value: true
+  wizard:
+    name: Install Jupyter
+    kind: boolean
+
+tensorboard:
+  value: true
+  wizard:
+    name: Install Tensorboard
+    kind: boolean
+
+src:
+  value: https://github.com/kuberlab-catalog/keras-examples
+  accountId: ''
+  revision: ''
+  wizard:
+    name: "Source Code"
+    kind: git
+
+dataset:
+ value: 'mnist'
+ version: '1.0.0-keras'
+ workspace: 'kuberlab-demo'
+ wizard:
+   name: "Dataset configuration"
+   kind: dataset

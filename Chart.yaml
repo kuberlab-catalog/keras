@@ -1,0 +1,15 @@
+Description: Keras
+Engine: gotpl
+Home: http://kuberlab.com
+Icon: https://keras.io/img/keras-logo-small.jpg
+Keywords:
+- keras
+- template
+- kuberlab
+- kuberlabapptemplate
+Maintainers:
+- Email: nmahotkin@kuberlab.com
+  Name: Makhotkin Nikolay
+Name: keras
+Version: 1.0.0
+Type: mlapp-v2
